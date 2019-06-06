@@ -14,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint --fix src --ext *.ts,*.tsx",
+    "pre-commit": "npm run lint && CI=true npm test --coverage",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "storybook": "start-storybook -p 9009 -s public",
@@ -25,6 +27,7 @@
     "@storybook/addon-links": "^5.1.1",
     "@storybook/addons": "^5.1.1",
     "@storybook/react": "^5.1.1",
-    "@types/storybook__react": "^4.0.2"
+    "@types/storybook__react": "^4.0.2",
+    "husky": "^2.4.0"
   }
 }

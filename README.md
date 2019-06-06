@@ -1,7 +1,5 @@
 # Letter Lemur
 
-**Note:** WIP
-
 ![Lemurs on loop](https://i.giphy.com/1ivxvG3WzSsoak7QNE.gif)
 
 A React Typescript design libary inspired by the _awesome_ [Mailchimp Design System].
@@ -32,7 +30,7 @@ npm run storybook
 
 ## Contributions
 
-Feel free to raise a PR.
+Right now this is a personal project where I am aiming to do a component a week. However feel free to fork the project, raise an issue, or even make a suggestion.
 
 <!-- MARKDOWN REFERENCES -->
 

@@ -1,7 +1,7 @@
 {
-  "name": "ts-base-react-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "letter-lemur",
+  "description": "A React Typescript design libary inspired by https://ux.mailchimp.com",
+  "version": "0.0.1",
   "dependencies": {
     "@types/jest": "24.0.13",
     "@types/node": "12.0.4",
@@ -16,21 +16,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.1",
+    "@storybook/addon-links": "^5.1.1",
+    "@storybook/addons": "^5.1.1",
+    "@storybook/react": "^5.1.1",
+    "@types/storybook__react": "^4.0.2"
   }
 }
